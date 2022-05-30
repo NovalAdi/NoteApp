@@ -32,6 +32,7 @@ class BindingAdapter {
             when (emptyDatabase.value) {
                 true -> view.visibility = View.VISIBLE
                 false -> view.visibility = View.INVISIBLE
+                else -> {}
             }
         }
 
